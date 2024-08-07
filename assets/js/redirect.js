@@ -31,12 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const hereElement = document.getElementById('here');
         hereElement.href = targetUrl;
 
-        // Ajouter un événement de clic pour rediriger immédiatement si cliqué
-        hereElement.addEventListener('click', function(event) {
-            event.preventDefault(); // Empêcher le comportement par défaut du lien
-            window.location.href = targetUrl;
-        });
-
         // Rediriger après un délai de 2 secondes
         setTimeout(function() {
             window.location.href = targetUrl;
