@@ -1,0 +1,16 @@
+let appCodeName = navigator.appCodeName;
+let appName = navigator.appName;
+let appVersion = navigator.appVersion;
+let language = navigator.language;
+let onLine = navigator.onLine;
+let platform = navigator.platform;
+let product = navigator.product;
+let userAgent = navigator.userAgent;
+document.getElementById("appcodename").innerText = "Browser appCodeName is : " + appCodeName;
+document.getElementById("appname").innerText = "Browser appName is : " + appName;
+document.getElementById("appversion").innerText = "Browser appVersion is : " + appVersion;
+document.getElementById("language").innerText = "Browser language is : " + language
+document.getElementById("online").innerText = "Is the browser online : " + onLine;
+document.getElementById("platform").innerText = "Browser platform : " + platform;
+document.getElementById("product").innerText = "Browser engine name : " + product ;
+document.getElementById("useragent").innerText = "Browser user-agent header : " + userAgent;

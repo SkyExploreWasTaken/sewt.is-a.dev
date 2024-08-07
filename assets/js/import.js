@@ -1,6 +1,6 @@
 const scripts = [
-    'assets/js/particles.js',
-    'assets/js/config.js',
+    '../assets/js/particles.js',
+    '../assets/js/config.js',
     'https://kit.fontawesome.com/dbecdae410.js'
     // Ajoutez autant de fichiers que nécessaire
 ];
