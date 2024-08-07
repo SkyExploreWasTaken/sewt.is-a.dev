@@ -2,7 +2,7 @@
 body {
   font-family: 'JetBrains Mono', Fallback, sans-serif;
   color: green;
-  background-color: gray;
+  background-image: url('https://vincentgarreau.com/assets/img/darkbg.jpg') cover;
   background-size: cover;
 }
 #particles-js {
