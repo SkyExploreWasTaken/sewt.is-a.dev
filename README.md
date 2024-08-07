@@ -1,2 +1,2 @@
 # SkyExploreWasTaken.github.io
-My website (not finished)
+My website (in creation)
